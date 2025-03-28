@@ -1,0 +1,50 @@
+@keyframes rotate {
+  from {
+    transform: rotatey(0deg);
+  }
+  to {
+    transform: rotatex(360deg);
+  }
+}
+
+input {
+  animation: rotate 0.65s linear 1;
+}
+@keyframes rotate {
+  from {
+    transform: rotatey(0deg);
+  }
+  to {
+    transform: rotatex(360deg);
+  }
+}
+
+button {
+  animation: rotate 0.65s linear 1;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.calculator {
+  padding: 30px;
+}
+
+input {
+  padding: 22px;
+  margin: 10px;
+}
+
+input::placeholder {
+  colour: skyblue;
+}
+
+button {
+  margin: 10px;
+}

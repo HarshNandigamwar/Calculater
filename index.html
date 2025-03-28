@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Calculator</title>
+  </head>
+  <body class="w-full h-screen flex justify-center items-center bg-[#232222]">
+
+    <div class="flex justify-center items-center">
+
+      <div
+        class="border-2 border-red-500 p-[30px] rounded-xl bg-[#1a1a1a] shadow-[1px_1px_15px_#0000ff]"
+      >
+
+      <input
+      class="w-[320px] rounded-none bg-black text-5xl text-right cursor-none border-2 border-red-500 rounded-xl text-[rgba(0,255,254,1)]"
+type="text" id="inputBox" placeholder="0" />
+
+        <div>
+          <button class="button operator w-[60px] h-[60px] rounded-md bg-black text-[#ffa500] text-2xl shadow-[1px_1px_5px_#fffffff2] cursor-pointer">AC</button>
+          <button class="button operator w-[60px] h-[60px] rounded-md bg-black text-[#ffa500] text-2xl shadow-[1px_1px_5px_#fffffff2] cursor-pointer">DEL</button>
+          <button class="button operator w-[60px] h-[60px] rounded-md bg-black text-[#ffa500] text-2xl shadow-[1px_1px_5px_#fffffff2] cursor-pointer">%</button>
+          <button class="button operator w-[60px] h-[60px] rounded-md bg-black text-[#ffa500] text-2xl shadow-[1px_1px_5px_#fffffff2] cursor-pointer">/</button>
+        </div>
+        <div>
+          <button class="button w-[60px] h-[60px] rounded-md bg-black text-[#00ff00fa] text-2xl shadow-[1px_1px_5px_#fffffff2] cursor-pointer hover:text-white hover:shadow-[1px_1px_15px_#0000fff2]">7</button>
+          <button class="button w-[60px] h-[60px] rounded-md bg-black text-[#00ff00fa] text-2xl shadow-[1px_1px_5px_#fffffff2] cursor-pointer hover:text-white hover:shadow-[1px_1px_15px_#0000fff2]">8</button>
+          <button class="button w-[60px] h-[60px] rounded-md bg-black text-[#00ff00fa] text-2xl shadow-[1px_1px_5px_#fffffff2] cursor-pointer hover:text-white hover:shadow-[1px_1px_15px_#0000fff2]">9</button>
+          <button class="button operator w-[60px] h-[60px] rounded-md bg-black text-[#ffa500] text-2xl shadow-[1px_1px_5px_#fffffff2] cursor-pointer">*</button>
+        </div>
+        <div>
+          <button class="button w-[60px] h-[60px] rounded-md bg-black text-[#00ff00fa] text-2xl shadow-[1px_1px_5px_#fffffff2] cursor-pointer hover:text-white hover:shadow-[1px_1px_15px_#0000fff2]">4</button>
+          <button class="button w-[60px] h-[60px] rounded-md bg-black text-[#00ff00fa] text-2xl shadow-[1px_1px_5px_#fffffff2] cursor-pointer hover:text-white hover:shadow-[1px_1px_15px_#0000fff2]">5</button>
+          <button class="button w-[60px] h-[60px] rounded-md bg-black text-[#00ff00fa] text-2xl shadow-[1px_1px_5px_#fffffff2] cursor-pointer hover:text-white hover:shadow-[1px_1px_15px_#0000fff2]">6</button>
+          <button class="button operator w-[60px] h-[60px] rounded-md bg-black text-[#ffa500] text-2xl shadow-[1px_1px_5px_#fffffff2] cursor-pointer">-</button>
+        </div>
+        <div>
+          <button class="button w-[60px] h-[60px] rounded-md bg-black text-[#00ff00fa] text-2xl shadow-[1px_1px_5px_#fffffff2] cursor-pointer hover:text-white hover:shadow-[1px_1px_15px_#0000fff2]">1</button>
+          <button class="button w-[60px] h-[60px] rounded-md bg-black text-[#00ff00fa] text-2xl shadow-[1px_1px_5px_#fffffff2] cursor-pointer hover:text-white hover:shadow-[1px_1px_15px_#0000fff2]">2</button>
+          <button class="button w-[60px] h-[60px] rounded-md bg-black text-[#00ff00fa] text-2xl shadow-[1px_1px_5px_#fffffff2] cursor-pointer hover:text-white hover:shadow-[1px_1px_15px_#0000fff2]">3</button>
+          <button class="button operator w-[60px] h-[60px] rounded-md bg-black text-[#ffa500] text-2xl shadow-[1px_1px_5px_#fffffff2] cursor-pointer">+</button>
+        </div>
+
+        <div>
+          <button class="button w-[60px] h-[60px] rounded-md bg-black text-[#00ff00fa] text-2xl shadow-[1px_1px_5px_#fffffff2] cursor-pointer hover:text-white hover:shadow-[1px_1px_15px_#0000fff2]">00</button>
+          <button class="button w-[60px] h-[60px] rounded-md bg-black text-[#00ff00fa] text-2xl shadow-[1px_1px_5px_#fffffff2] cursor-pointer hover:text-white hover:shadow-[1px_1px_15px_#0000fff2]">0</button>
+          <button class="button w-[60px] h-[60px] rounded-md bg-black text-[#00ff00fa] text-2xl shadow-[1px_1px_5px_#fffffff2] cursor-pointer hover:text-white hover:shadow-[1px_1px_15px_#0000fff2]">.</button>
+          <button class="button equalBtn w-[60px] h-[60px] rounded-md bg-black text-[#00ff00fa] text-2xl shadow-[1px_1px_5px_#fffffff2] cursor-pointer hover:text-white hover:shadow-[1px_1px_15px_#0000fff2]">=</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
