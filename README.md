@@ -1,4 +1,4 @@
-## 🧮 Simple & Stylish Calculator 🧮
+## 🧮 Simple & Stylish Calculator
 - This is a clean and user-friendly calculator web application built using HTML, Tailwind-CSS, and JavaScript.  It provides a simple yet effective way to perform basic arithmetic calculations right in your browser.  The focus is on a great user experience with an intuitive layout and responsive design.
 
 ![img](./img/cc.png)
